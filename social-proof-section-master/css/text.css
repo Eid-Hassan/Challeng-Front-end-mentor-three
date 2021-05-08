@@ -1,0 +1,104 @@
+/* Start Variables */
+:root{
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+}
+/* End Variables */
+
+/* Start Global Ruls */
+html{scroll-behavior: smooth;}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+    font-family: 'Spartan', sans-serif;
+}
+/* End Global Ruls */
+.up{
+    padding: 100px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/********************* Start Products *****************/
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.products .left{width: 450px;}
+
+.products .left h1{color: hsl(300, 43%, 22%);}
+
+.products .left p{color: hsl(303, 10%, 53%);font-size: 15px;}
+
+
+.products .right .one{
+    width: 420px;
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    border-radius: 7px;
+}
+.products .right .one .two{padding-left: 25px;}
+
+.products .right .one h4{color: hsl(300, 43%, 22%);padding-left: 30px;}
+
+.products .right .one2{margin-left: 50px;}
+
+.products .right .one3{margin-left: 100px;}
+
+/****************************** End products *******************************/
+
+
+/******************************* Start About *************************/
+.About{
+    display: flex;
+}
+.About .about{
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    margin-right: 20px;
+    width: 420px;
+    border-radius: 12px;
+}
+.About .about .cont{display: flex;align-items: center;}
+
+.About .about .cont img{border-radius: 50%;}
+
+.About .about .cont .one{
+    margin-left: 25px;
+}
+.About .about .cont .one h4{
+    color:  hsl(300, 24%, 96%);
+}
+
+.About .about .cont .one p{
+    margin-top: -20px;
+    color: hsl(303, 10%, 53%);
+}
+
+.About .about p{
+    color:  hsl(0, 0%, 100%);
+}
+
+.About .about .v1{
+
+}
+
+.About .about .v2{
+    
+}
+.About .about .v3{
+
+}
+/****************************** End About ***************************/
