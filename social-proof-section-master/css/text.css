@@ -32,9 +32,7 @@ body{
     justify-content: space-between;
     margin-bottom: 50px;
 }
-
 .products .left{width: 450px;}
-
 .products .left h1{color: hsl(300, 43%, 22%);}
 
 .products .left p{color: hsl(303, 10%, 53%);font-size: 15px;}
@@ -54,7 +52,6 @@ body{
 .products .right .one h4{color: hsl(300, 43%, 22%);padding-left: 30px;}
 
 .products .right .one2{margin-left: 50px;}
-
 .products .right .one3{margin-left: 100px;}
 
 /****************************** End products *******************************/
@@ -64,13 +61,18 @@ body{
 .About{
     display: flex;
 }
+
 .About .about{
     background-color: hsl(300, 43%, 22%);
     padding: 30px;
-    margin-right: 20px;
+    margin-right: 30px;
     width: 420px;
     border-radius: 12px;
+    height: 250px;
 }
+
+.About .v1{margin-top: 20px;}
+.About .v2{margin-top: 40px;}
 .About .about .cont{display: flex;align-items: center;}
 
 .About .about .cont img{border-radius: 50%;}
@@ -89,16 +91,5 @@ body{
 
 .About .about p{
     color:  hsl(0, 0%, 100%);
-}
-
-.About .about .v1{
-
-}
-
-.About .about .v2{
-    
-}
-.About .about .v3{
-
 }
 /****************************** End About ***************************/
