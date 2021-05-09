@@ -16,27 +16,55 @@ body{
     background-color: #ddd;
     font-family: 'Spartan', sans-serif;
 }
+@media (max-width:375px){
+    body{
+        height: 2000px;
+        background-color: white;
+    }
+}
 /* End Global Ruls */
 .up{
-    padding: 100px;
     background-color: white;
     left: 50%;
     top: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 100px;
 }
-
+@media (max-width:375px){
+    .up{
+        padding: 20px;
+        left: 0;
+        top: 0;
+        position: absolute;
+        transform: translate(0, 0);
+        width: 450px;
+        text-align: center;
+    }
+}
 /********************* Start Products *****************/
 .products{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
+@media (max-width:375px){
+    .products{
+        flex-direction: column;
+        width: 350px;
+    }
+}
+
+
 .products .left{width: 450px;}
 .products .left h1{color: hsl(300, 43%, 22%);}
 
 .products .left p{color: hsl(303, 10%, 53%);font-size: 15px;}
-
+@media (max-width:375px){
+    .products .left{width: 400px;}
+    .products .left p{width: 350px;margin: 10px auto;}
+}
 
 .products .right .one{
     width: 420px;
@@ -53,13 +81,30 @@ body{
 
 .products .right .one2{margin-left: 50px;}
 .products .right .one3{margin-left: 100px;}
-
+@media (max-width:375px){
+    .products .right .one{
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+        padding: 5px 10px;
+        height: 90px;
+    }
+    .products .right .one .two {
+        margin-top: 10px;
+    }
+}
 /****************************** End products *******************************/
 
 
 /******************************* Start About *************************/
 .About{
     display: flex;
+}
+@media (max-width:375px){
+    .About{
+        flex-direction: column;
+        width: 350px;
+    }
 }
 
 .About .about{
@@ -91,5 +136,11 @@ body{
 
 .About .about p{
     color:  hsl(0, 0%, 100%);
+}
+@media (max-width:375px){
+    .About .about{
+        width: 392px;
+        text-align: left;
+    }
 }
 /****************************** End About ***************************/
